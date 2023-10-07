@@ -1,0 +1,1155 @@
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: No such file or directory
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: No such file or directory
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./finder-test.sh: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 127[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/HjYoFYVXXUyhuIORskC7GCTqprlZsQiT
+./finder-test.sh: 57: ./finder-test.sh: ./writer.sh: not found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 127[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 127:finder-test.sh execution for random directory failed with return code 127
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+./assignment-autotest/test/assignment1/assignment-test.sh: line 10: ./writer.sh: Permission denied
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+./assignment-autotest/test/assignment1/assignment-test.sh: line 16: ./writer.sh: Permission denied
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 57: ./finder-test.sh: ./writer.sh: Permission denied
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 126[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/fOxxv5hfU9URiTT9fdj4vRCgQ2TMoY0F
+./finder-test.sh: 57: ./finder-test.sh: ./writer.sh: Permission denied
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 126[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 126:finder-test.sh execution for random directory failed with return code 126
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+[0;31mValidation Error:writer.sh should have exited with return value 1 if no parameters were specified[0m
+[0;31mValidation Error:writer.sh should have exited with return value 1 if write string is not specified[0m
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/k18QZTM8S9puB1PCDIEqAZwzT8LwEHzg
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :writer.sh should have exited with return value 1 if no parameters were specified:writer.sh should have exited with return value 1 if write string is not specified:finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/pVzIltDodb3TwegtRQXWGg25D22HIFss
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+touch: cannot touch '/tmp/aeld-data/Kathan13911.txt': No such file or directory
+./writer.sh: 9: ./writer.sh: cannot create /tmp/aeld-data/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/PYYIpsjtq6U83tMgf53HixlEZMOsz0II
+touch: cannot touch '/tmp/aeld-data/PYYIpsjtq6U83tMgf53HixlEZMOsz0II/Kathan13911.txt': No such file or directory
+./writer.sh: 9: ./writer.sh: cannot create /tmp/aeld-data/PYYIpsjtq6U83tMgf53HixlEZMOsz0II/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./writer.sh: 15: ./writer.sh: Syntax error: end of file unexpected (expecting "fi")
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/6e95noISq0b8liIcjULEQbDxyYc2i2Mh
+./writer.sh: 15: ./writer.sh: Syntax error: end of file unexpected (expecting "fi")
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/sApoiyfqg3m0YWlGJkcSeWlME2kpF8c5
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+creating
+creating
+creating
+creating
+creating
+creating
+creating
+creating
+creating
+creating
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/bJUbrgnaNfkv9Vq8pxteVqpCR0o9gVc1
+creating
+creating
+creating
+creating
+creating
+creating
+creating
+creating
+creating
+creating
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+creating
+/tmp/aeld-data/Kathan13911.txt
+creating
+/tmp/aeld-data/Kathan13912.txt
+creating
+/tmp/aeld-data/Kathan13913.txt
+creating
+/tmp/aeld-data/Kathan13914.txt
+creating
+/tmp/aeld-data/Kathan13915.txt
+creating
+/tmp/aeld-data/Kathan13916.txt
+creating
+/tmp/aeld-data/Kathan13917.txt
+creating
+/tmp/aeld-data/Kathan13918.txt
+creating
+/tmp/aeld-data/Kathan13919.txt
+creating
+/tmp/aeld-data/Kathan139110.txt
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13911.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13912.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13913.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13914.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13915.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13916.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13917.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13918.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan13919.txt
+creating
+/tmp/aeld-data/dHuXvX5KnLfTJOQ6TSBorVkPQPvu5lVW/Kathan139110.txt
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+creating
+/tmp/aeld-data/Kathan13911.txt
+creating
+/tmp/aeld-data/Kathan13912.txt
+creating
+/tmp/aeld-data/Kathan13913.txt
+creating
+/tmp/aeld-data/Kathan13914.txt
+creating
+/tmp/aeld-data/Kathan13915.txt
+creating
+/tmp/aeld-data/Kathan13916.txt
+creating
+/tmp/aeld-data/Kathan13917.txt
+creating
+/tmp/aeld-data/Kathan13918.txt
+creating
+/tmp/aeld-data/Kathan13919.txt
+creating
+/tmp/aeld-data/Kathan139110.txt
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13911.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13912.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13913.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13914.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13915.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13916.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13917.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13918.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan13919.txt
+creating
+/tmp/aeld-data/Gyr6mazmDfLOhqDrc8aH1Urxv9Xo6sQq/Kathan139110.txt
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/Kathan13911.txt
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+touch: cannot touch '/tmp/aeld-data/Kathan13911.txt': No such file or directory
+./writer.sh: 10: ./writer.sh: cannot create /tmp/aeld-data/Kathan13911.txt: Directory nonexistent
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/mt8CRpizb2NR8P41rsbZ7uSAlOm1WkIV
+/tmp/aeld-data/mt8CRpizb2NR8P41rsbZ7uSAlOm1WkIV/Kathan13911.txt
+touch: cannot touch '/tmp/aeld-data/mt8CRpizb2NR8P41rsbZ7uSAlOm1WkIV/Kathan13911.txt': No such file or directory
+./writer.sh: 10: ./writer.sh: cannot create /tmp/aeld-data/mt8CRpizb2NR8P41rsbZ7uSAlOm1WkIV/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+assignment1
+/tmp/aeld-data/Kathan13911.txt
+touch: cannot touch '/tmp/aeld-data/Kathan13911.txt': No such file or directory
+./writer.sh: 10: ./writer.sh: cannot create /tmp/aeld-data/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/GOpLHSIJ9iw42jsObVhllAhkZBMOLtGE
+assignment1
+/tmp/aeld-data/GOpLHSIJ9iw42jsObVhllAhkZBMOLtGE/Kathan13911.txt
+touch: cannot touch '/tmp/aeld-data/GOpLHSIJ9iw42jsObVhllAhkZBMOLtGE/Kathan13911.txt': No such file or directory
+./writer.sh: 10: ./writer.sh: cannot create /tmp/aeld-data/GOpLHSIJ9iw42jsObVhllAhkZBMOLtGE/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+./finder-test.sh: 37: [: assignment1: unexpected operator
+/tmp/aeld-data/Kathan13911.txt
+touch: cannot touch '/tmp/aeld-data/Kathan13911.txt': No such file or directory
+./writer.sh: 10: ./writer.sh: cannot create /tmp/aeld-data/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/uHgge4koGAlgAMVRqAXYYtLKXuCD1EXA
+./finder-test.sh: 37: [: assignment1: unexpected operator
+/tmp/aeld-data/uHgge4koGAlgAMVRqAXYYtLKXuCD1EXA/Kathan13911.txt
+touch: cannot touch '/tmp/aeld-data/uHgge4koGAlgAMVRqAXYYtLKXuCD1EXA/Kathan13911.txt': No such file or directory
+./writer.sh: 10: ./writer.sh: cannot create /tmp/aeld-data/uHgge4koGAlgAMVRqAXYYtLKXuCD1EXA/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+/tmp/aeld-data/Kathan13911.txt
+/tmp/aeld-data/Kathan13912.txt
+/tmp/aeld-data/Kathan13913.txt
+/tmp/aeld-data/Kathan13914.txt
+/tmp/aeld-data/Kathan13915.txt
+/tmp/aeld-data/Kathan13916.txt
+/tmp/aeld-data/Kathan13917.txt
+/tmp/aeld-data/Kathan13918.txt
+/tmp/aeld-data/Kathan13919.txt
+/tmp/aeld-data/Kathan139110.txt
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 1[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu created
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13911.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13912.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13913.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13914.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13915.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13916.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13917.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13918.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan13919.txt
+/tmp/aeld-data/CdbBFYPaYPDeRM727TtqLgtwu1U20iKu/Kathan139110.txt
+failed: expected  The number of files are 10 and the number of matching lines are 10 in 10 but instead found
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 1[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 1:finder-test.sh execution for random directory failed with return code 1
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+/tmp/aeld-data/Kathan13911.txt
+/tmp/aeld-data/Kathan13912.txt
+/tmp/aeld-data/Kathan13913.txt
+/tmp/aeld-data/Kathan13914.txt
+/tmp/aeld-data/Kathan13915.txt
+/tmp/aeld-data/Kathan13916.txt
+/tmp/aeld-data/Kathan13917.txt
+/tmp/aeld-data/Kathan13918.txt
+/tmp/aeld-data/Kathan13919.txt
+/tmp/aeld-data/Kathan139110.txt
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb created
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13911.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13912.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13913.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13914.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13915.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13916.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13917.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13918.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan13919.txt
+/tmp/aeld-data/Hf1kXwRPvd66oNgYajZpqIfSGwG4KUTb/Kathan139110.txt
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data/Kathan13911.txt
+touch: cannot touch '/tmp/aeld-data/Kathan13911.txt': No such file or directory
+./writer.sh: 10: ./writer.sh: cannot create /tmp/aeld-data/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for default directory failed with return code 2[0m
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/Fko3hRezQVktUBxCxMgEiXAlf83lLutQ
+/tmp/aeld-data/Fko3hRezQVktUBxCxMgEiXAlf83lLutQ/Kathan13911.txt
+touch: cannot touch '/tmp/aeld-data/Fko3hRezQVktUBxCxMgEiXAlf83lLutQ/Kathan13911.txt': No such file or directory
+./writer.sh: 10: ./writer.sh: cannot create /tmp/aeld-data/Fko3hRezQVktUBxCxMgEiXAlf83lLutQ/Kathan13911.txt: Directory nonexistent
+[0;31mValidation Error:finder-test.sh execution for random directory failed with return code 2[0m
+Validation failed with error list :finder-test.sh execution for default directory failed with return code 2:finder-test.sh execution for random directory failed with return code 2
+Test of assignment assignment1 failed with rc=1
+Running test with user pi
+-- Generating ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c from test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c
+-- Building executable including ;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c;/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username_Runner.c test/assignment1/Test_hello.c;test/assignment1/Test_assignment_validate.c;../student-test/assignment1/Test_validate_username.c and ../examples/autotest-validate/autotest-validate.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pi/Desktop/Coursera/assignment-1-Kathan1391/build
+[  8%] Building C object assignment-autotest/Unity/src/CMakeFiles/unity.dir/unity.c.o
+[ 16%] Linking C static library libunity.a
+[ 16%] Built target unity
+[ 25%] Generating ../../assignment-autotest/test/assignment1/Test_hello_Runner.c, ../../assignment-autotest/test/assignment1/Test_assignment_validate_Runner.c, ../../student-test/assignment1/Test_validate_username_Runner.c, ../../assignment-autotest/test/unity_runner.c
+Test files for auto dependency generation test/assignment1/Test_hello.c test/assignment1/Test_assignment_validate.c ../student-test/assignment1/Test_validate_username.c
+Autogenerating runner for test/assignment1/Test_hello.c
+Autogenerating runner for test/assignment1/Test_assignment_validate.c
+Autogenerating runner for ../student-test/assignment1/Test_validate_username.c
+Autogenerating test/unity_runner.c
+Scanning dependencies of target assignment-autotest
+[ 33%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello.c.o
+[ 41%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate.c.o
+[ 50%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username.c.o
+[ 58%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_hello_Runner.c.o
+[ 66%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/assignment1/Test_assignment_validate_Runner.c.o
+[ 75%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/student-test/assignment1/Test_validate_username_Runner.c.o
+[ 83%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/__/examples/autotest-validate/autotest-validate.c.o
+[ 91%] Building C object assignment-autotest/CMakeFiles/assignment-autotest.dir/test/unity_runner.c.o
+[100%] Linking C executable assignment-autotest
+[100%] Built target assignment-autotest
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:6:test_hello:INFO: Hello!  Your unity setup is working!
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_hello.c:4:test_hello:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1/Test_assignment_validate.c:9:test_assignment_validate:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+/home/pi/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/../student-test/assignment1/Test_validate_username.c:15:test_validate_my_username:PASS
+
+-----------------------
+1 Tests 0 Failures 0 Ignored 
+OK
+Executing assignment test script
+~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+~/Desktop/Coursera/assignment-1-Kathan1391/finder-app ~/Desktop/Coursera/assignment-1-Kathan1391/assignment-autotest/test/assignment1 ~/Desktop/Coursera/assignment-1-Kathan1391
+Less arg
+Less arg
+Using default value AELD_IS_FUN for string to write
+Using default value 10 for number of files to write
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data
+/tmp/aeld-data created
+/tmp/aeld-data/Kathan13911.txt
+/tmp/aeld-data/Kathan13912.txt
+/tmp/aeld-data/Kathan13913.txt
+/tmp/aeld-data/Kathan13914.txt
+/tmp/aeld-data/Kathan13915.txt
+/tmp/aeld-data/Kathan13916.txt
+/tmp/aeld-data/Kathan13917.txt
+/tmp/aeld-data/Kathan13918.txt
+/tmp/aeld-data/Kathan13919.txt
+/tmp/aeld-data/Kathan139110.txt
+The number of files are 10 and the number of matching lines are 10
+success
+Writing 10 files containing string AELD_IS_FUN to /tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k created
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13911.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13912.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13913.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13914.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13915.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13916.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13917.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13918.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan13919.txt
+/tmp/aeld-data/6K3rEL4StGEf39k8HBXxSq2KurXUFX3k/Kathan139110.txt
+The number of files are 10 and the number of matching lines are 10
+success
+Test of assignment assignment1 complete with success
